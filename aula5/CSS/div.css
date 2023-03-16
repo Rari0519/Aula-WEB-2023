@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  border: 2px solid #000;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  position: relative;
+}
+
+.container > div {
+  border: 2px solid #000;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+}
+
+/* BOX 1 */
+.box1 {
+  top: 5%;
+  left: 5%;
+}
+
+/* BOX 2 */
+.box2 {
+  top: 5%;
+  right: 5%;
+}
+
+/* BOX 3 */
+.box3 {
+  bottom: 5%;
+  left: 5%;
+}
+
+/* BOX 4 */
+.box4 {
+  bottom: 5%;
+  right: 5%;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: blueviolet;
+}
+
+.square {
+  position: absolute;
+  border-radius: 10%;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(11, 224, 93);
+}
+
+/* BOX 1 */
+.container .box1 .box1-1 {
+  top: 5%;
+  left: 5%;
+}
+.container .box1 .box1-2 {
+  top: 5%;
+  right: 5%;
+}
+.container .box1 .box1-3 {
+  bottom: 5%;
+  left: 5%;
+}
+.container .box1 .box1-4 {
+  bottom: 5%;
+  right: 5%;
+}
+
+/* BOX 2 */
+.container .box2 .box2-1 {
+  top: 5%;
+  left: 5%;
+}
+.container .box2 .box2-2 {
+  top: 33%;
+  left: 38%;
+}
+.container .box2 .box2-3 {
+  bottom: 5%;
+  right: 5%;
+}
+
+/* BOX 3 */
+.container .box3 .box3-1 {
+  top: 5%;
+  left: 5%;
+}
+.container .box3 .box3-2 {
+  top: 5%;
+  left: 40%;
+}
+.container .box3 .box3-3 {
+  top: 5%;
+  right: 5%;
+}
+.container .box3 .box3-4 {
+  bottom: 5%;
+  left: 5%;
+}
+.container .box3 .box3-5 {
+  bottom: 5%;
+  left: 40%;
+}
+.container .box3 .box3-6 {
+  bottom: 5%;
+  right: 5%;
+}
+
+/* BOX 4 */
+.container .box4 .box4-1 {
+  top: 3%;
+  left: 5%;
+}
+.container .box4 .box4-2 {
+  top: 42%;
+  left: 5%;
+}
+.container .box4 .box4-3 {
+  bottom: 22%;
+  left: 30%;
+}
+.container .box4 .box4-4 {
+  bottom: 3%;
+  right: 22%;
+}
